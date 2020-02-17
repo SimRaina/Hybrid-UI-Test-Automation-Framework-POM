@@ -1,0 +1,42 @@
+2020-01-23 22:23:51,374 - test.Test1 -INFO - This is a test. Don't worry.
+2020-01-23 22:23:51,374 [main] INFO test.Test1 - This is a test. Don't worry.
+2020-01-26 22:28:26,505 - test.Test1 -INFO - This is a test. Don't worry.
+2020-01-26 22:28:26,505 [main] INFO test.Test1 - This is a test. Don't worry.
+2020-02-15 21:04:21,246 - test.Test1 -INFO - This is a test. Don't worry.
+2020-02-15 21:04:21,246 [main] INFO test.Test1 - This is a test. Don't worry.
+2020-02-15 21:04:21,274 - screenshot.ScreenShot -INFO - 
+2020-02-15 21:04:21,274 [main] INFO screenshot.ScreenShot - null
+2020-02-15 21:05:50,633 - test.Test1 -INFO - This is a test. Don't worry.
+2020-02-15 21:05:50,633 [main] INFO test.Test1 - This is a test. Don't worry.
+2020-02-15 21:05:50,676 - screenshot.ScreenShot -INFO - 
+2020-02-15 21:05:50,676 [main] INFO screenshot.ScreenShot - null
+2020-02-15 21:09:48,847 - test.Test1 -INFO - This is a test. Don't worry.
+2020-02-15 21:09:48,847 [main] INFO test.Test1 - This is a test. Don't worry.
+2020-02-15 21:09:49,318 - screenshot.ScreenShot -INFO - Screenshot Taken
+2020-02-15 21:09:49,318 [main] INFO screenshot.ScreenShot - Screenshot Taken
+2020-02-15 21:16:13,503 - test.Test1 -INFO - This is a test. Don't worry.
+2020-02-15 21:16:13,503 [main] INFO test.Test1 - This is a test. Don't worry.
+2020-02-15 21:16:13,519 - screenshot.ScreenShot -INFO - 
+2020-02-15 21:16:13,519 [main] INFO screenshot.ScreenShot - null
+2020-02-15 21:18:32,856 - test.Test1 -INFO - This is a test. Don't worry.
+2020-02-15 21:18:32,856 [main] INFO test.Test1 - This is a test. Don't worry.
+2020-02-15 21:18:33,386 - screenshot.ScreenShot -INFO - Screenshot Taken
+2020-02-15 21:18:33,386 [main] INFO screenshot.ScreenShot - Screenshot Taken
+2020-02-16 22:27:10,029 - test.Test1 -INFO - This is a test. Don't worry.
+2020-02-16 22:27:10,029 [main] INFO test.Test1 - This is a test. Don't worry.
+2020-02-16 22:28:14,669 - test.Test1 -INFO - This is a test. Don't worry.
+2020-02-16 22:28:14,669 [main] INFO test.Test1 - This is a test. Don't worry.
+2020-02-16 22:28:18,639 - test.Test1 -INFO - admin
+2020-02-16 22:28:18,639 [main] INFO test.Test1 - admin
+2020-02-16 22:28:18,639 - test.Test1 -INFO - 1234
+2020-02-16 22:28:18,639 [main] INFO test.Test1 - 1234
+2020-02-16 22:28:19,419 - screenshot.ScreenShot -INFO - Screenshot Taken
+2020-02-16 22:28:19,419 [main] INFO screenshot.ScreenShot - Screenshot Taken
+2020-02-17 22:33:38,751 - test.Test1 -INFO - This is a test. Don't worry.
+2020-02-17 22:33:38,751 [main] INFO test.Test1 - This is a test. Don't worry.
+2020-02-17 22:33:42,250 - test.Test1 -INFO - admin
+2020-02-17 22:33:42,250 [main] INFO test.Test1 - admin
+2020-02-17 22:33:42,250 - test.Test1 -INFO - 1234
+2020-02-17 22:33:42,250 [main] INFO test.Test1 - 1234
+2020-02-17 22:33:43,144 - screenshot.ScreenShot -INFO - Screenshot Taken
+2020-02-17 22:33:43,144 [main] INFO screenshot.ScreenShot - Screenshot Taken
