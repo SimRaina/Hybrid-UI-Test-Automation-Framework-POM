@@ -40,3 +40,11 @@
 2020-02-17 22:33:42,250 [main] INFO test.Test1 - 1234
 2020-02-17 22:33:43,144 - screenshot.ScreenShot -INFO - Screenshot Taken
 2020-02-17 22:33:43,144 [main] INFO screenshot.ScreenShot - Screenshot Taken
+2021-09-01 00:09:19,778 - test.Test1 -INFO - This is a test. Don't worry.
+2021-09-01 00:09:19,778 [main] INFO test.Test1 - This is a test. Don't worry.
+2021-09-01 00:09:21,274 - test.Test1 -INFO - admin
+2021-09-01 00:09:21,274 [main] INFO test.Test1 - admin
+2021-09-01 00:09:21,275 - test.Test1 -INFO - 1234
+2021-09-01 00:09:21,275 [main] INFO test.Test1 - 1234
+2021-09-01 00:09:21,534 - screenshot.ScreenShot -INFO - Screenshot Taken
+2021-09-01 00:09:21,534 [main] INFO screenshot.ScreenShot - Screenshot Taken

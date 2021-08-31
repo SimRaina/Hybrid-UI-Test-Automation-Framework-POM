@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21378" started-at="2020-02-17T17:03:22Z" finished-at="2020-02-17T17:03:43Z">
+  <suite started-at="2021-08-31T18:39:16Z" name="Default suite" finished-at="2021-08-31T18:39:21Z" duration-ms="4977">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21378" started-at="2020-02-17T17:03:22Z" finished-at="2020-02-17T17:03:43Z">
+    <test started-at="2021-08-31T18:39:16Z" name="Default test" finished-at="2021-08-31T18:39:21Z" duration-ms="4977">
       <class name="test.Test1">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.Test1@7085bdee]" name="setup" is-config="true" duration-ms="16585" started-at="2020-02-17T22:33:22Z" finished-at="2020-02-17T22:33:38Z">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Test1@59e32960]" started-at="2021-09-01T00:09:16Z" name="setup" finished-at="2021-09-01T00:09:19Z" duration-ms="3086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test()[pri:0, instance:test.Test1@7085bdee]" name="test" duration-ms="4401" started-at="2020-02-17T22:33:38Z" finished-at="2020-02-17T22:33:43Z">
+        <test-method signature="test()[pri:0, instance:test.Test1@59e32960]" started-at="2021-09-01T00:09:19Z" name="test" finished-at="2021-09-01T00:09:21Z" duration-ms="1764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:test.Test1@7085bdee]" name="cleanup" is-config="true" duration-ms="319" started-at="2020-02-17T22:33:43Z" finished-at="2020-02-17T22:33:43Z">
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:test.Test1@59e32960]" started-at="2021-09-01T00:09:21Z" name="cleanup" finished-at="2021-09-01T00:09:21Z" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
