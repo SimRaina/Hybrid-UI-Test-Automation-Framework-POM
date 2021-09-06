@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import org.apache.log4j.Logger;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.codoid.products.exception.FilloException;
@@ -13,6 +14,7 @@ import filloreader.FilloReader;
 import screenshot.ScreenShot;
 import testbase.TestBase;
 
+@Listeners(listeners.ListenerTest.class)
 public class Test1 extends TestBase{
 	public static final Logger log = Logger.getLogger(Test1.class.getName());
 	ScreenShot ss;
@@ -27,7 +29,7 @@ public class Test1 extends TestBase{
 	}
 	
 	@Test
-	public void test() throws FilloException {
+	public void testLoginPositive() throws FilloException {
 		log.info("This is a test. Don't worry.");
 		ss = new ScreenShot();
 		fillo = new FilloReader();

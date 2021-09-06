@@ -48,3 +48,11 @@
 2021-09-01 00:09:21,275 [main] INFO test.Test1 - 1234
 2021-09-01 00:09:21,534 - screenshot.ScreenShot -INFO - Screenshot Taken
 2021-09-01 00:09:21,534 [main] INFO screenshot.ScreenShot - Screenshot Taken
+2021-09-02 00:55:27,424 - test.Test1 -INFO - This is a test. Don't worry.
+2021-09-02 00:55:27,424 [main] INFO test.Test1 - This is a test. Don't worry.
+2021-09-02 00:55:28,982 - test.Test1 -INFO - admin
+2021-09-02 00:55:28,982 [main] INFO test.Test1 - admin
+2021-09-02 00:55:28,983 - test.Test1 -INFO - 1234
+2021-09-02 00:55:28,983 [main] INFO test.Test1 - 1234
+2021-09-02 00:55:29,258 - screenshot.ScreenShot -INFO - Screenshot Taken
+2021-09-02 00:55:29,258 [main] INFO screenshot.ScreenShot - Screenshot Taken
