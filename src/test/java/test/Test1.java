@@ -1,8 +1,11 @@
 package test;
 
+import static org.testng.Assert.assertEquals;
+
 import java.util.ArrayList;
 
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
@@ -25,10 +28,10 @@ public class Test1 extends TestBase{
 	FilloReader fillo;
 	@BeforeTest
 	public void setup() {
-		init();
+		//init();
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void testLoginPositive() throws FilloException {
 		log.info("This is a test. Don't worry.");
 		ss = new ScreenShot();
@@ -42,8 +45,14 @@ public class Test1 extends TestBase{
 		
 	}
 	
+	@Test
+	public void test1() {
+		
+		Assert.assertEquals(true, true);
+	}
+	
 	@AfterTest
 	public void cleanup() {
-		driver.close();
+		//driver.close();
 	}
 }

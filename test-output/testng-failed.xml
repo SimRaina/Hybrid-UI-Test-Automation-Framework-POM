@@ -5,8 +5,8 @@
     <classes>
       <class name="test.Test1">
         <methods>
+          <include name="test1"/>
           <include name="setup"/>
-          <include name="test"/>
         </methods>
       </class> <!-- test.Test1 -->
     </classes>
