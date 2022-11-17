@@ -13,16 +13,16 @@ public class LoginPage {
 	
 
 	
-	@FindBy(id="txtUsername")
+	@FindBy(name="username")
 	WebElement user;
 	
-	@FindBy(id="txtPassword")
+	@FindBy(name="password")
 	WebElement password;
 	
-	@FindBy(id="btnLogin")
+	@FindBy(xpath="//form/div/button")
 	WebElement btn;
 	
-	@FindBy(xpath="//span[contains(text(), 'Invalid')]")
+	@FindBy(xpath="//div[@class='oxd-alert-content oxd-alert-content--error']/p")
 	WebElement message;
 	
 	public LoginPage(WebDriver driver) {

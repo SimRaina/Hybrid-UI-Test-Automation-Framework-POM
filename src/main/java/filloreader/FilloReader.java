@@ -40,4 +40,18 @@ public class FilloReader {
 		connection.close();
 		return loginValues;
     }
+	
+	public void updateData(String filepath,String excelName,String sheetName, String result, int rowNumber) throws FilloException {
+		this.filepath=filepath;
+		Fillo fillo=new Fillo();
+		String filepath1 = filepath+excelName;
+	
+		Connection connection=fillo.getConnection(filepath1);  // Setting connection with the Excel File
+		
+		String strQuery="UPDATE" +" "+sheetName+" "+ "SET Result='"+result+"' " + "where TCNumber='"+rowNumber+"' "; // Writing SQL Query
+		connection.executeUpdate(strQuery);
+		connection.close();
+    }
 }
+
+

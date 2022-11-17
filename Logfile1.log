@@ -190,3 +190,77 @@
 2021-12-18 04:05:18,132 [main] INFO test.LoginTest - Invalid credentials
 2021-12-18 04:05:18,445 - screenshot.ScreenShot -INFO - Screenshot Taken
 2021-12-18 04:05:18,445 [main] INFO screenshot.ScreenShot - Screenshot Taken
+2022-11-17 15:24:59,839 - test.LoginTest -INFO - Test Login
+2022-11-17 15:24:59,839 [main] INFO test.LoginTest - Test Login
+2022-11-17 15:25:00,898 - test.LoginTest -INFO - admin
+2022-11-17 15:25:00,898 [main] INFO test.LoginTest - admin
+2022-11-17 15:25:00,899 - test.LoginTest -INFO - 1234
+2022-11-17 15:25:00,899 [main] INFO test.LoginTest - 1234
+2022-11-17 15:25:00,936 - pageClasses.LoginPage -INFO - Username
+2022-11-17 15:25:00,936 [main] INFO pageClasses.LoginPage - Username
+2022-11-17 15:25:26,933 - test.LoginTest -INFO - Test Login
+2022-11-17 15:25:26,933 [main] INFO test.LoginTest - Test Login
+2022-11-17 15:25:28,060 - test.LoginTest -INFO - admin
+2022-11-17 15:25:28,060 [main] INFO test.LoginTest - admin
+2022-11-17 15:25:28,061 - test.LoginTest -INFO - 1234
+2022-11-17 15:25:28,061 [main] INFO test.LoginTest - 1234
+2022-11-17 15:25:28,107 - pageClasses.LoginPage -INFO - Username
+2022-11-17 15:25:28,107 [main] INFO pageClasses.LoginPage - Username
+2022-11-17 15:39:53,647 - test.LoginTest -INFO - Test Login
+2022-11-17 15:39:53,647 [main] INFO test.LoginTest - Test Login
+2022-11-17 15:39:54,640 - test.LoginTest -INFO - admin
+2022-11-17 15:39:54,640 [main] INFO test.LoginTest - admin
+2022-11-17 15:39:54,640 - test.LoginTest -INFO - 1234
+2022-11-17 15:39:54,640 [main] INFO test.LoginTest - 1234
+2022-11-17 15:39:54,683 - pageClasses.LoginPage -INFO - Username
+2022-11-17 15:39:54,683 [main] INFO pageClasses.LoginPage - Username
+2022-11-17 15:42:03,067 - test.LoginTest -INFO - Test Login
+2022-11-17 15:42:03,067 [main] INFO test.LoginTest - Test Login
+2022-11-17 15:42:04,023 - test.LoginTest -INFO - admin
+2022-11-17 15:42:04,023 [main] INFO test.LoginTest - admin
+2022-11-17 15:42:04,024 - test.LoginTest -INFO - 1234
+2022-11-17 15:42:04,024 [main] INFO test.LoginTest - 1234
+2022-11-17 15:42:04,070 - pageClasses.LoginPage -INFO - Username
+2022-11-17 15:42:04,070 [main] INFO pageClasses.LoginPage - Username
+2022-11-17 15:42:04,155 - pageClasses.LoginPage -INFO - Entered Username
+2022-11-17 15:42:04,155 [main] INFO pageClasses.LoginPage - Entered Username
+2022-11-17 15:42:04,156 - pageClasses.LoginPage -INFO - Enter Password
+2022-11-17 15:42:04,156 [main] INFO pageClasses.LoginPage - Enter Password
+2022-11-17 15:42:05,212 - pageClasses.LoginPage -INFO - Clicked on Login Button
+2022-11-17 15:42:05,212 [main] INFO pageClasses.LoginPage - Clicked on Login Button
+2022-11-17 15:43:24,387 - test.LoginTest -INFO - Test Login
+2022-11-17 15:43:24,387 [main] INFO test.LoginTest - Test Login
+2022-11-17 15:43:25,459 - test.LoginTest -INFO - admin
+2022-11-17 15:43:25,459 [main] INFO test.LoginTest - admin
+2022-11-17 15:43:25,460 - test.LoginTest -INFO - 1234
+2022-11-17 15:43:25,460 [main] INFO test.LoginTest - 1234
+2022-11-17 15:43:25,513 - pageClasses.LoginPage -INFO - Username
+2022-11-17 15:43:25,513 [main] INFO pageClasses.LoginPage - Username
+2022-11-17 15:43:25,588 - pageClasses.LoginPage -INFO - Entered Username
+2022-11-17 15:43:25,588 [main] INFO pageClasses.LoginPage - Entered Username
+2022-11-17 15:43:25,589 - pageClasses.LoginPage -INFO - Enter Password
+2022-11-17 15:43:25,589 [main] INFO pageClasses.LoginPage - Enter Password
+2022-11-17 15:43:25,733 - pageClasses.LoginPage -INFO - Clicked on Login Button
+2022-11-17 15:43:25,733 [main] INFO pageClasses.LoginPage - Clicked on Login Button
+2022-11-17 15:43:26,814 - test.LoginTest -INFO - Invalid credentials
+2022-11-17 15:43:26,814 [main] INFO test.LoginTest - Invalid credentials
+2022-11-17 15:43:27,077 - screenshot.ScreenShot -INFO - Screenshot Taken
+2022-11-17 15:43:27,077 [main] INFO screenshot.ScreenShot - Screenshot Taken
+2022-11-17 15:45:34,744 - test.LoginTest -INFO - Test Login
+2022-11-17 15:45:34,744 [main] INFO test.LoginTest - Test Login
+2022-11-17 15:45:35,771 - test.LoginTest -INFO - admin
+2022-11-17 15:45:35,771 [main] INFO test.LoginTest - admin
+2022-11-17 15:45:35,772 - test.LoginTest -INFO - 1234
+2022-11-17 15:45:35,772 [main] INFO test.LoginTest - 1234
+2022-11-17 15:45:35,823 - pageClasses.LoginPage -INFO - Username
+2022-11-17 15:45:35,823 [main] INFO pageClasses.LoginPage - Username
+2022-11-17 15:45:35,901 - pageClasses.LoginPage -INFO - Entered Username
+2022-11-17 15:45:35,901 [main] INFO pageClasses.LoginPage - Entered Username
+2022-11-17 15:45:35,902 - pageClasses.LoginPage -INFO - Enter Password
+2022-11-17 15:45:35,902 [main] INFO pageClasses.LoginPage - Enter Password
+2022-11-17 15:45:36,045 - pageClasses.LoginPage -INFO - Clicked on Login Button
+2022-11-17 15:45:36,045 [main] INFO pageClasses.LoginPage - Clicked on Login Button
+2022-11-17 15:45:37,205 - test.LoginTest -INFO - Invalid credentials
+2022-11-17 15:45:37,205 [main] INFO test.LoginTest - Invalid credentials
+2022-11-17 15:45:37,442 - screenshot.ScreenShot -INFO - Screenshot Taken
+2022-11-17 15:45:37,442 [main] INFO screenshot.ScreenShot - Screenshot Taken

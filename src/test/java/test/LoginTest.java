@@ -50,14 +50,9 @@ public class LoginTest extends TestBase{
 		
 		Assert.assertEquals(errmsg, "Invalid credentials");
 		ss.CaptureScreenShot(driver, "Test_01_Screenshot test");
-		
+		fillo.updateData(filepath, "loginData.xlsx", "login", "Failed", 1);
 	}
-	
-	@Test
-	public void test1() {
-		
-		Assert.assertEquals(true, true);
-	}
+
 	
 	@AfterTest
 	public void cleanup() {

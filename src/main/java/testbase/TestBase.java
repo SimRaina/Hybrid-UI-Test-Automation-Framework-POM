@@ -8,25 +8,26 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import datamanager.ConfigReader;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 	
 	public WebDriver driver;
 	String url=ConfigReader.getValueFromPropertyFile("AppUrl");
-	String browser_path=ConfigReader.getValueFromPropertyFile("Chrome_Path");
+	//String browser_path=ConfigReader.getValueFromPropertyFile("Chrome_Path");
 	String browser_type = "chrome";
 	
 	public void init() {
-		selectBrowser(browser_type, browser_path);
+		selectBrowser(browser_type);
 		getUrl(url);
 		String log4jConfPath = "log4j.properties";
 		PropertyConfigurator.configure(log4jConfPath);
 	}
 	
-	public void selectBrowser(String browser_type, String browser_path) {
+	public void selectBrowser(String browser_type) {
 		if(browser_type.equalsIgnoreCase("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+browser_path);
+			driver = WebDriverManager.chromedriver().create();
 		    driver = new ChromeDriver();
 		    log.info("Inside Select Browser");
 		}
