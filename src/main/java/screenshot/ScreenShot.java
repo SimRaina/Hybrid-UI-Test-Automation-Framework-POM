@@ -3,12 +3,11 @@ package screenshot;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
-import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.io.FileHandler;
 
 public class ScreenShot {
 
@@ -24,7 +23,7 @@ public class ScreenShot {
 			
 			String d = s.format(new Date());
 			
-			FileUtils.copyFile(source, new File("ScreenShots/"+d+"-"+scenario_name+".png"));
+			FileHandler.copy(source, new File("ScreenShots/"+d+"-"+scenario_name+".png"));
 			
 			log.info("Screenshot Taken");
 		}  

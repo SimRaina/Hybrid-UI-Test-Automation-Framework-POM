@@ -1,9 +1,6 @@
 package test;
 
-import static org.testng.Assert.assertEquals;
-
 import java.util.ArrayList;
-
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;

@@ -5,7 +5,6 @@ import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import datamanager.ConfigReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -15,7 +14,6 @@ public class TestBase {
 	
 	public WebDriver driver;
 	String url=ConfigReader.getValueFromPropertyFile("AppUrl");
-	//String browser_path=ConfigReader.getValueFromPropertyFile("Chrome_Path");
 	String browser_type = "chrome";
 	
 	public void init() {
@@ -28,11 +26,11 @@ public class TestBase {
 	public void selectBrowser(String browser_type) {
 		if(browser_type.equalsIgnoreCase("Chrome")) {
 			driver = WebDriverManager.chromedriver().create();
-		    driver = new ChromeDriver();
 		    log.info("Inside Select Browser");
 		}
 	}
 	
+	@SuppressWarnings("deprecation")
 	public void getUrl(String url) {
 		driver.get(url);
 		driver.manage().window().maximize();

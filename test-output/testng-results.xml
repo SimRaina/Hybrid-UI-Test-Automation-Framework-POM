@@ -1,51 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-17T14:53:59Z" name="Suite" finished-at="2022-11-17T14:54:07Z" duration-ms="8181">
+  <suite started-at="2023-01-20T15:24:33Z" name="Default suite" finished-at="2023-01-20T15:24:38Z" duration-ms="4159">
     <groups>
     </groups>
-    <test started-at="2022-11-17T14:53:59Z" name="Test" finished-at="2022-11-17T14:54:07Z" duration-ms="8181">
+    <test started-at="2023-01-20T15:24:33Z" name="Default test" finished-at="2023-01-20T15:24:38Z" duration-ms="4159">
       <class name="test.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@517d4a0d]" started-at="2022-11-17T15:53:59Z" name="setup" finished-at="2022-11-17T15:54:04Z" duration-ms="4687" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLoginNegative()[pri:0, instance:test.LoginTest@517d4a0d]" started-at="2022-11-17T15:54:04Z" name="testLoginNegative" finished-at="2022-11-17T15:54:07Z" duration-ms="3121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginNegative -->
-        <test-method is-config="true" signature="cleanup()[pri:0, instance:test.LoginTest@517d4a0d]" started-at="2022-11-17T15:54:07Z" name="cleanup" finished-at="2022-11-17T15:54:07Z" duration-ms="0" status="FAIL">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@5ef5c734]" started-at="2023-01-20T20:54:34Z" name="setup" finished-at="2023-01-20T20:54:34Z" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SRAINA-NB', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: driver.version: RemoteWebDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}), userDataDir=C:\Users\SRaina\AppData\Local\Temp\scoped_dir16864_1222015592}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56931}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=107.0.5304.107, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: c2dd0c1e5ad1ee900d123e6a686b0b99]]>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 107
+Current browser version is 109.0.5414.75 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-M8LBSK5', ip: '192.168.0.122'
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SRAINA-NB', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: driver.version: RemoteWebDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}), userDataDir=C:\Users\SRaina\AppData\Local\Temp\scoped_dir16864_1222015592}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56931}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=107.0.5304.107, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: c2dd0c1e5ad1ee900d123e6a686b0b99
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:667)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:542)
-	at test.LoginTest.cleanup(LoginTest.java:60)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 107
+Current browser version is 109.0.5414.75 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-M8LBSK5', ip: '192.168.0.122'
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:106)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:228)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:156)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+	at testbase.TestBase.selectBrowser(TestBase.java:28)
+	at testbase.TestBase.init(TestBase.java:20)
+	at test.LoginTest.setup(LoginTest.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
-	at org.testng.TestRunner.afterRun(TestRunner.java:983)
-	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:602)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
@@ -59,35 +64,80 @@ Session ID: c2dd0c1e5ad1ee900d123e6a686b0b99
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Couldn't detect pid
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:133)
-	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:265)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:219)
-	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:127)
-	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
-	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:220)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	... 26 more
-Caused by: java.lang.RuntimeException: Couldn't detect pid
-	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:195)
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:128)
-	... 34 more
-Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @2a2d45ba
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
-	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
-	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172)
-	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:181)
-	... 35 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginNegative()[pri:0, instance:test.LoginTest@5ef5c734]" started-at="2023-01-20T20:54:37Z" name="testLoginNegative" finished-at="2023-01-20T20:54:38Z" duration-ms="241" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 107
+Current browser version is 109.0.5414.75 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-M8LBSK5', ip: '192.168.0.122'
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 107
+Current browser version is 109.0.5414.75 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-M8LBSK5', ip: '192.168.0.122'
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:106)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:228)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:156)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+	at testbase.TestBase.selectBrowser(TestBase.java:28)
+	at testbase.TestBase.init(TestBase.java:20)
+	at test.LoginTest.setup(LoginTest.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginNegative -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:test.LoginTest@5ef5c734]" started-at="2023-01-20T20:54:38Z" name="cleanup" finished-at="2023-01-20T20:54:38Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
       </class> <!-- test.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
