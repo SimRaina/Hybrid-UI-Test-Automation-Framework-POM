@@ -1,16 +1,19 @@
 package testbase;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.LoggerContext;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import datamanager.ConfigReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
-	public static final Logger log = Logger.getLogger(TestBase.class.getName());
+
+	public static final Logger log = LogManager.getLogger(TestBase.class.getName());
 	
 	public WebDriver driver;
 	String url=ConfigReader.getValueFromPropertyFile("AppUrl");
@@ -19,8 +22,9 @@ public class TestBase {
 	public void init() {
 		selectBrowser(browser_type);
 		getUrl(url);
-		String log4jConfPath = "log4j.properties";
-		PropertyConfigurator.configure(log4jConfPath);
+		File file = new File("log4j2.properties");
+		LoggerContext context = (LoggerContext) LogManager.getContext(false);
+		context.setConfigLocation(file.toURI());
 	}
 	
 	public void selectBrowser(String browser_type) {

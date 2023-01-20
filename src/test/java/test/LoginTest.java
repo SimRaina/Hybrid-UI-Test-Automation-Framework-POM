@@ -1,7 +1,8 @@
 package test;
 
 import java.util.ArrayList;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -17,7 +18,9 @@ import testbase.TestBase;
 
 @Listeners(listeners.ListenerTest.class)
 public class LoginTest extends TestBase{
-	public static final Logger log = Logger.getLogger(LoginTest.class.getName());
+	
+	public static final Logger log = LogManager.getLogger(LoginTest.class.getName());
+	
 	ScreenShot ss;
 	ArrayList<String> login_cred = new ArrayList<String>();
 	String email_id="";

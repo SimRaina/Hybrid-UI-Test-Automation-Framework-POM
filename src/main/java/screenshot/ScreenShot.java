@@ -3,7 +3,9 @@ package screenshot;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import org.apache.log4j.Logger;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -11,7 +13,7 @@ import org.openqa.selenium.io.FileHandler;
 
 public class ScreenShot {
 
-	public static final Logger log = Logger.getLogger(ScreenShot.class.getName());
+	public static final Logger log = LogManager.getLogger(ScreenShot.class.getName());
 	
 	public void CaptureScreenShot(WebDriver driver, String scenario_name){
 		

@@ -1,15 +1,15 @@
 package pageClasses;
 
-import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
-	
-	public static final Logger log = Logger.getLogger(LoginPage.class.getName());
+
+    public static final Logger log = LogManager.getLogger(LoginPage.class.getName());
 	
 
 	

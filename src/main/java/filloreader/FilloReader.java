@@ -1,9 +1,8 @@
 package filloreader;
 
 import java.util.ArrayList;
-
-import org.apache.log4j.Logger;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import com.codoid.products.exception.FilloException;
 import com.codoid.products.fillo.Connection;
 import com.codoid.products.fillo.Fillo;
@@ -14,7 +13,7 @@ public class FilloReader {
 	ArrayList<String> row= new ArrayList<String>();
 	ArrayList<String> loginValues=new ArrayList<String>();
 	public String filepath;
-	public static final Logger log = Logger.getLogger(FilloReader.class.getName());
+	public static final Logger log = LogManager.getLogger(FilloReader.class.getName());
 	
 	
 	public ArrayList<String> getData(String filepath,String excelName,String sheetName, int rowNumber) throws FilloException {
