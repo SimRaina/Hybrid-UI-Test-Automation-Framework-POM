@@ -1,0 +1,9 @@
+2023-01-20 22:09:24.785 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:39)] - Test Login
+2023-01-20 22:09:25.927 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:44)] - admin
+2023-01-20 22:09:25.928 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:46)] - 1234
+2023-01-20 22:09:25.960 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:35)] - Username
+2023-01-20 22:09:26.040 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:37)] - Entered Username
+2023-01-20 22:09:26.040 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:39)] - Enter Password
+2023-01-20 22:09:27.001 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:43)] - Clicked on Login Button
+2023-01-20 22:09:27.254 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:50)] - Invalid credentials
+2023-01-20 22:09:27.453 INFO [main] [screenshot.ScreenShot.CaptureScreenShot(ScreenShot.java:30)] - Screenshot Taken

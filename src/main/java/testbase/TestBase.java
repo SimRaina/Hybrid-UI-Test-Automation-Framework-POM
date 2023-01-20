@@ -2,14 +2,12 @@ package testbase;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.LoggerContext;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-
+import org.openqa.selenium.chrome.ChromeDriver;
 import datamanager.ConfigReader;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 
@@ -29,7 +27,7 @@ public class TestBase {
 	
 	public void selectBrowser(String browser_type) {
 		if(browser_type.equalsIgnoreCase("Chrome")) {
-			driver = WebDriverManager.chromedriver().create();
+			driver = new ChromeDriver();
 		    log.info("Inside Select Browser");
 		}
 	}
