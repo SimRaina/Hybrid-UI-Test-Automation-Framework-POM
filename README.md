@@ -1,11 +1,11 @@
 # Hybrid-UI-Test-Automation-Framework-POM
 This is a Hybrid UI Test Automation Framework using:
-  Selenium WebDriver as UI automation tool
-  TestNG as test execution engine
-  Java as Programming Language
-  Maven as build tool
-  Extent Reporting for test HTML reports 
-  Fillo as data manipulation tool for reading and writing data in excel sheet
+  1. Selenium WebDriver as UI automation tool
+  2. TestNG as test execution engine
+  3. Java as Programming Language
+  4. Maven as build tool
+  5. Extent Reporting for test HTML reports 
+  6. Fillo as data manipulation tool for reading and writing data in excel sheet
  
 # Using the code in your local
 1. Download the zip or clone using HTTP or SSH in your local. It is a public repository.
