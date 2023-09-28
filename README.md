@@ -14,3 +14,6 @@ This is a Hybrid UI Test Automation Framework using:
 4. It will show pom.xml file choosen. Select OK
 5. Maven will build the project. Once done successfully, you can use the project and explore it.
 
+Note: To understand the concepts, follow the playlist on YouTube:
+https://www.youtube.com/playlist?list=PLxpZfOtJA71wFV_Dz-Bz5HBto5gHRPesM
+
