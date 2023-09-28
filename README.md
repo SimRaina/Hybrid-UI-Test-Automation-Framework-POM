@@ -15,5 +15,5 @@ This is a Hybrid UI Test Automation Framework using:
 5. Maven will build the project. Once done successfully, you can use the project and explore it.
 
 Note: To understand the concepts, follow the playlist on YouTube:
-https://www.youtube.com/playlist?list=PLxpZfOtJA71wFV_Dz-Bz5HBto5gHRPesM
+https://www.youtube.com/watch?v=RbCSDMskRXA&list=PLxpZfOtJA71wFV_Dz-Bz5HBto5gHRPesM
 
