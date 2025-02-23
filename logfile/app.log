@@ -25,3 +25,21 @@
 2024-04-06 18:11:27.326 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:43)] - Clicked on Login Button
 2024-04-06 18:11:28.484 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:50)] - Invalid credentials
 2024-04-06 18:11:28.625 INFO [main] [screenshot.ScreenShot.CaptureScreenShot(ScreenShot.java:30)] - Screenshot Taken
+2025-02-23 15:37:07.903 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:39)] - Test Login
+2025-02-23 15:37:08.535 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:44)] - admin
+2025-02-23 15:37:08.536 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:46)] - 1234
+2025-02-23 15:37:08.551 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:35)] - Username
+2025-02-23 15:37:08.607 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:37)] - Entered Username
+2025-02-23 15:37:08.607 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:39)] - Enter Password
+2025-02-23 15:37:09.630 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:43)] - Clicked on Login Button
+2025-02-23 15:37:09.925 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:50)] - Invalid credentials
+2025-02-23 15:37:10.068 INFO [main] [screenshot.ScreenShot.CaptureScreenShot(ScreenShot.java:30)] - Screenshot Taken
+2025-02-23 15:46:48.553 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:39)] - Test Login
+2025-02-23 15:46:49.075 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:44)] - admin
+2025-02-23 15:46:49.076 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:46)] - 1234
+2025-02-23 15:46:49.091 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:35)] - Username
+2025-02-23 15:46:49.153 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:37)] - Entered Username
+2025-02-23 15:46:49.154 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:39)] - Enter Password
+2025-02-23 15:46:49.279 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:43)] - Clicked on Login Button
+2025-02-23 15:46:50.823 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:50)] - Invalid credentials
+2025-02-23 15:46:50.972 INFO [main] [screenshot.ScreenShot.CaptureScreenShot(ScreenShot.java:30)] - Screenshot Taken

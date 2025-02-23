@@ -16,40 +16,40 @@
 
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.1</version>
-      <scope>test</scope>
+      	<groupId>junit</groupId>
+      	<artifactId>junit</artifactId>
+      	<version>4.13.1</version>
+      	<scope>test</scope>
     </dependency>
     
     <dependency>
-	<groupId>org.seleniumhq.selenium</groupId>
-	<artifactId>selenium-java</artifactId>
-	<version>4.18.1</version>
-</dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-java</artifactId>
+		<version>4.18.1</version>
+	</dependency>
 
-<dependency>
-	<groupId>org.testng</groupId>
-	<artifactId>testng</artifactId>
-	<version>7.7.0</version>
-</dependency>
-<dependency>
-    <groupId>com.aventstack</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>3.1.5</version>
-</dependency>
+	<dependency>
+		<groupId>org.testng</groupId>
+		<artifactId>testng</artifactId>
+		<version>7.7.0</version>
+	</dependency>
+	<dependency>
+    	<groupId>com.aventstack</groupId>
+    	<artifactId>extentreports</artifactId>
+    	<version>3.1.5</version>
+	</dependency>
 
     <dependency>
-    		<groupId>org.apache.logging.log4j</groupId>
-    		<artifactId>log4j-core</artifactId>
-    		<version>2.17.2</version>
+    	<groupId>org.apache.logging.log4j</groupId>
+    	<artifactId>log4j-core</artifactId>
+    	<version>2.17.2</version>
  	</dependency>
 
     <dependency>
-  <groupId>com.codoid.products</groupId>
-  <artifactId>fillo</artifactId>
-  <version>1.18</version>
-</dependency>
+  		<groupId>com.codoid.products</groupId>
+  		<artifactId>fillo</artifactId>
+  		<version>1.18</version>
+	</dependency>
   </dependencies>
   
    <build>
