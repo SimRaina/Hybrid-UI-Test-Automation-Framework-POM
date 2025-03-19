@@ -11,8 +11,6 @@ public class LoginPage {
 
     public static final Logger log = LogManager.getLogger(LoginPage.class.getName());
 	
-
-	
 	@FindBy(name="username")
 	WebElement user;
 	
@@ -26,24 +24,19 @@ public class LoginPage {
 	WebElement message;
 	
 	public LoginPage(WebDriver driver) {
-		PageFactory.initElements(driver, this);
+	    PageFactory.initElements(driver, this);
 	}
 	
 	public String login(String username,String pass) {
 		
-		String text="";
-		log.info("Username");
+	    String text="";
+	    log.info("Enter Username");
 	    user.sendKeys(username); 
-	    log.info("Entered Username");
-	    
 	    log.info("Enter Password");
 	    password.sendKeys(pass);
-	    
 	    btn.click();
 	    log.info("Clicked on Login Button");
-		
 	    text = message.getText();
-	    
 	    return text;         
 	}
 }
