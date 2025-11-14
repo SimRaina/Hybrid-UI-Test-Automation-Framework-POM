@@ -43,3 +43,25 @@
 2025-02-23 15:46:49.279 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:43)] - Clicked on Login Button
 2025-02-23 15:46:50.823 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:50)] - Invalid credentials
 2025-02-23 15:46:50.972 INFO [main] [screenshot.ScreenShot.CaptureScreenShot(ScreenShot.java:30)] - Screenshot Taken
+2025-11-14 11:34:12.363 INFO [main] [test.LoginTestJson.testLoginNegative(LoginTestJson.java:43)] - Test Login
+2025-11-14 11:34:13.027 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:33)] - Enter Username
+2025-11-14 11:34:13.131 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:35)] - Enter Password
+2025-11-14 11:34:13.408 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:38)] - Clicked on Login Button
+2025-11-14 11:36:06.314 INFO [main] [test.LoginTestJson.testLoginNegative(LoginTestJson.java:43)] - Test Login
+2025-11-14 11:36:06.945 INFO [main] [pageClasses.LoginPage.loginSuccess(LoginPage.java:45)] - Enter Username
+2025-11-14 11:36:07.034 INFO [main] [pageClasses.LoginPage.loginSuccess(LoginPage.java:47)] - Enter Password
+2025-11-14 11:36:07.319 INFO [main] [pageClasses.LoginPage.loginSuccess(LoginPage.java:50)] - Clicked on Login Button
+2025-11-14 11:42:30.908 INFO [main] [test.LoginTestJson.testLoginNegative(LoginTestJson.java:43)] - Test Login
+2025-11-14 11:42:31.788 INFO [main] [pageClasses.LoginPage.loginSuccess(LoginPage.java:45)] - Enter Username
+2025-11-14 11:42:31.924 INFO [main] [pageClasses.LoginPage.loginSuccess(LoginPage.java:47)] - Enter Password
+2025-11-14 11:42:32.193 INFO [main] [pageClasses.LoginPage.loginSuccess(LoginPage.java:50)] - Clicked on Login Button
+2025-11-14 11:48:01.402 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:39)] - Test Login
+2025-11-14 11:48:34.582 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:39)] - Test Login
+2025-11-14 11:49:02.909 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:39)] - Test Login
+2025-11-14 11:49:04.831 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:44)] - admin
+2025-11-14 11:49:04.831 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:46)] - 1234
+2025-11-14 11:49:04.892 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:33)] - Enter Username
+2025-11-14 11:49:05.038 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:35)] - Enter Password
+2025-11-14 11:49:05.290 INFO [main] [pageClasses.LoginPage.login(LoginPage.java:38)] - Clicked on Login Button
+2025-11-14 11:49:06.708 INFO [main] [test.LoginTest.testLoginNegative(LoginTest.java:50)] - Invalid credentials
+2025-11-14 11:49:06.899 INFO [main] [screenshot.ScreenShot.CaptureScreenShot(ScreenShot.java:30)] - Screenshot Taken

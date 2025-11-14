@@ -1,6 +1,7 @@
 package testbase;
 
 import java.io.File;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.LoggerContext;
@@ -32,11 +33,10 @@ public class TestBase {
 		}
 	}
 	
-	@SuppressWarnings("deprecation")
 	public void getUrl(String url) {
 		driver.get(url);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		log.info("Inside Get URL");
 	}
 

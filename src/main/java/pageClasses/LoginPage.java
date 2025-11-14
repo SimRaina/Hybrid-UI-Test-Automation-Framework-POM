@@ -39,5 +39,15 @@ public class LoginPage {
 	    text = message.getText();
 	    return text;         
 	}
+	
+	public void loginSuccess(String username,String pass) {
+		
+	    log.info("Enter Username");
+	    user.sendKeys(username); 
+	    log.info("Enter Password");
+	    password.sendKeys(pass);
+	    btn.click();
+	    log.info("Clicked on Login Button");      
+	}
 }
 	
